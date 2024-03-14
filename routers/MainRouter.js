@@ -3,6 +3,6 @@ const mainController = require('../controllers/MainController')
 
 const router = new Router()
 
-router.post('/reConfig', mainController.reConfig)
+router.get('/reConfig', mainController.reConfig)
 
 module.exports = router
